@@ -65,7 +65,7 @@ As a [GitHub Action][github-action] via
 
 ```text
 markdownlint-cli2 vX.Y.Z (markdownlint vX.Y.Z)
-https://github.com/DavidAnson/markdownlint-cli2
+https://github.com/Unity-Billal-mesloub/markdownlint-cli2
 
 Syntax: markdownlint-cli2 glob0 [glob1] [...] [globN] [--config file] [--configPointer pointer] [--fix] [--format] [--help] [--no-globs]
 
@@ -521,71 +521,3 @@ image instead. That image bundles Node.js and all dependencies and provides the
 most consistent experience because it is not affected by new releases of any
 dependencies.
 
-## History
-
-See [CHANGELOG.md][changelog].
-
-[changelog]: CHANGELOG.md
-[command-line]: #command-line
-[commonmark]: https://commonmark.org/
-[commonjs-module]: https://nodejs.org/api/modules.html#modules-commonjs-modules
-[ecmascript-module]: https://nodejs.org/api/esm.html#modules-ecmascript-modules
-[docker]: https://www.docker.com
-[docker-bind-mounts]: https://docs.docker.com/storage/bind-mounts/
-[docker-hub-markdownlint-cli2]: https://hub.docker.com/r/davidanson/markdownlint-cli2
-[docker-hub-markdownlint-cli2-rules]: https://hub.docker.com/r/davidanson/markdownlint-cli2-rules
-[front-matter]: https://jekyllrb.com/docs/frontmatter/
-[github-action]: https://docs.github.com/actions
-[globby]: https://www.npmjs.com/package/globby
-[homebrew]: https://brew.sh
-[html-comment]: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started
-[json]: https://wikipedia.org/wiki/JSON
-[json-pointer]: https://datatracker.ietf.org/doc/html/rfc6901
-[json-schema]: https://json-schema.org
-[jsonc]: https://code.visualstudio.com/Docs/languages/json#_json-with-comments
-[license-image]: https://img.shields.io/npm/l/markdownlint-cli2.svg
-[license-url]: https://opensource.org/licenses/MIT
-[markdown]: https://wikipedia.org/wiki/Markdown
-[markdown-it]: https://www.npmjs.com/package/markdown-it
-[markdown-it-plugins]: https://www.npmjs.com/search?q=keywords:markdown-it-plugin
-[markdown-it-syntax-extensions]: https://github.com/markdown-it/markdown-it#syntax-extensions
-[markdownlint]: https://github.com/DavidAnson/markdownlint
-[markdownlint-config]: https://github.com/DavidAnson/markdownlint/blob/v0.41.1/README.md#optionsconfig
-[markdownlint-configuration]: https://github.com/DavidAnson/markdownlint/blob/v0.41.1/README.md#configuration
-[markdownlint-custom-rules]: https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/CustomRules.md
-[markdownlint-options]: https://github.com/DavidAnson/markdownlint/blob/v0.41.1/README.md#options
-[markdownlint-rules-aliases]: https://github.com/DavidAnson/markdownlint/blob/v0.41.1/README.md#rules--aliases
-[markdownlint-rules-tags]: https://github.com/DavidAnson/markdownlint/blob/v0.41.1/README.md#tags
-[markdownlint-cli]: https://github.com/igorshubovych/markdownlint-cli
-[markdownlint-cli2]: https://github.com/DavidAnson/markdownlint-cli2
-[markdownlint-cli2-action]: https://github.com/marketplace/actions/markdownlint-cli2-action
-[markdownlint-cli2-blog]: https://dlaa.me/blog/post/markdownlintcli2
-[markdownlint-cli2-cjs]: test/markdownlint-cli2-cjs/.markdownlint-cli2.cjs
-[markdownlint-cli2-config-schema]: schema/markdownlint-cli2-config-schema.json
-[markdownlint-cli2-formatter]: https://www.npmjs.com/search?q=keywords:markdownlint-cli2-formatter
-[markdownlint-cli2-jsonc]: test/markdownlint-cli2-jsonc-example/.markdownlint-cli2.jsonc
-[markdownlint-cli2-mjs]: test/markdownlint-cli2-mjs/.markdownlint-cli2.mjs
-[markdownlint-cli2-yaml]: test/markdownlint-cli2-yaml-example/.markdownlint-cli2.yaml
-[markdownlint-cjs]: test/markdownlint-cjs/.markdownlint.cjs
-[markdownlint-jsonc]: https://github.com/DavidAnson/markdownlint/blob/v0.41.1/schema/.markdownlint.jsonc
-[markdownlint-mjs]: test/markdownlint-mjs/.markdownlint.mjs
-[markdownlint-rule]: https://www.npmjs.com/search?q=keywords:markdownlint-rule
-[markdownlint-yaml]: https://github.com/DavidAnson/markdownlint/blob/v0.41.1/schema/.markdownlint.yaml
-[nodejs]: https://nodejs.org/
-[nodejs-docker]: https://github.com/nodejs/docker-node
-[nodejs-docker-non-root]: https://github.com/nodejs/docker-node/blob/main/docs/BestPractices.md#non-root-user
-[nodejs-import-expression]: https://nodejs.org/api/esm.html#import-expressions
-[nodejs-import-meta-resolve]: https://nodejs.org/api/esm.html#importmetaresolvespecifier
-[nodejs-require]: https://nodejs.org/api/modules.html#requireid
-[npm-image]: https://img.shields.io/npm/v/markdownlint-cli2.svg
-[npm-url]: https://www.npmjs.com/package/markdownlint-cli2
-[output-formatters]: doc/OutputFormatters.md
-[pre-commit]: https://pre-commit.com/
-[pre-commit-version]: https://pre-commit.com/#overriding-language-version
-[regexp]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp
-[regexp-constructor]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/RegExp
-[toml]: https://wikipedia.org/wiki/TOML
-[validating-configuration]: schema/ValidatingConfiguration.md
-[vscode]: https://code.visualstudio.com/
-[vscode-markdownlint]: https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
-[yaml]: https://wikipedia.org/wiki/YAML
